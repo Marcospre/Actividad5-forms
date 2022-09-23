@@ -1,0 +1,57 @@
+<html>
+<body>
+	<h2>Datos personales(Formulario)</h2>
+	<form action="datos.php" method="post">
+		<fieldset>
+			<legend>Formulario</legend>
+			<p>Escriba los datos siguientes:</p>
+			<hr>
+			<label for="fname">Nombre:</label>
+	   	 	<input type="text" id="fname" name="Nombre">
+			<label for="fape">Apellidos:</label>
+	   	 	<input type="text" id="fnape" name="Apellidos"><br>
+	   	 	<label for="fedad">Edad:</label>
+	   	 	<input type="number" id="fedad" name="Edad">
+	   	 	<label for="fpeso">Peso:</label>
+	   	 	<input type="number" id="fpeso" name="Peso">kg<br>
+	   	 	<hr>
+	   	 	
+	   	 	<label for="fsexo:">Sexo:</label>
+	   	 	<input type="radio" id="fsexo" name="Sexo" value="Hombre">
+	   	 	<label for="fsexo">Hombre</label>
+	   	 	<input type="radio" id="fsexo" name="Sexo" value="Mujer">
+	   	 	<label for="fsexo">Mujer</label><br>
+	   	 	
+	   	 	<label for=fcivil>Estado Civil:</label>
+	   	 	<input type="radio" id="fcivil" name="Civil" value="Soltero">
+	   	 	<label for=fcivil>Soltero</label>
+	   	 	<input type="radio" id="fcivil" name="Civil" value="Casado">
+	   	 	<label for=fcivil>Casado</label>
+	   	 	<input type="radio" id="fcivil" name="Civil" value="Otro">
+	   	 	<label for=fcivil>Otro</label><br>
+	   	 	<hr>
+	   	 	<label for="fafici">Aficiones:</label><br>
+	   	 	<input type="checkbox" id="fafici" name="Aficiones[]" value="Cine">
+	   	 	<label for="fafici">Cine</label>
+	   	 	<input type="checkbox" id="fafici" name="Aficiones[]" value="Literatura">
+	   	 	<label for="fafici">Literatura</label>
+	   	 	<input type="checkbox" id="fafici" name="Aficiones[]" value="Tebeos">
+	   	 	<label for="fafici">Tebeos</label><br>
+	   	 	<input type="checkbox" id="fafici" name="Aficiones[]" value="Deporte">
+	   	 	<label for="fafici">Deporte</label>
+	   	 	<input type="checkbox" id="fafici" name="Aficiones[]" value="Musica">
+	   	 	<label for="fafici">Musica</label>
+	   	 	<input type="checkbox" id="fafici" name="Aficiones[]" value="Television">
+	   	 	<label for="fafici">Television</label><br><br>
+	   	 	
+	   	 	<input value="Enviar" type="submit">
+	   	 	<input value="Borrar" type="reset">
+	   	 	
+	   	 	
+	   	 	
+	   	 	
+	   	 	
+		</fieldset>
+	 </form>
+</body>
+</html>
