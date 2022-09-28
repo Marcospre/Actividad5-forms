@@ -3,18 +3,22 @@ $num1 = $_POST["numero1"];
 $num2 = $_POST["numero2"];
 $oper = $_POST["operator"];
 
-function validar($num1, $num2){
+function validar($n1, $n2){
     
     $val = true;
     
-    if($num1 == null || $num2==null){
+    if($n1 == null || $n2==null){
         $val = false;
     }else{
-        if($num1->)
+        if(!is_numeric($n1)|| !is_numeric($n2)){
+            $val = false;
+        }
     }
+    
+    return $val;
 }
 
-if($num1 != null  && $num2!=null){
+if(validar($num1, $num2)){
     if($oper == "Sumar"){
         echo "La suma es ".($num1+$num2);
     }elseif($oper == "Restar"){
