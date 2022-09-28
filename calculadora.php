@@ -32,5 +32,8 @@ if(validar($num1, $num2)){
     echo "Inserte un valor correcto";
 }
 ?>
+<br>
+<a href="calculadora.html">Volver</a>
+
 
 
